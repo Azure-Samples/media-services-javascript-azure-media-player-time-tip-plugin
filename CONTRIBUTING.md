@@ -1,28 +1,11 @@
-# Contributing
+# Contributing to Azure samples
 
-## Important notes
-Please don't edit files in the `dist` subdirectory as they are generated via Grunt. You'll find source code in the `src` subdirectory!
+Thank you for your interest in contributing to Azure samples!
 
-### Code style
-Regarding code style like indentation and whitespace, **follow the conventions you see used in the source already.**
+## Ways to contribute
 
-## Modifying the code
-First, ensure that you have the latest [Node.js](http://nodejs.org/) and [npm](http://npmjs.org/) installed.
+You can contribute to [Azure samples](https://azure.microsoft.com/documentation/samples/) in a few different ways:
 
-Test that Grunt's CLI is installed by running `grunt --version`.  If the command isn't found, run `npm install -g grunt-cli`.  For more information about installing Grunt, see the [getting started guide](http://gruntjs.com/getting-started).
-
-1. Fork and clone the repo.
-1. Run `npm install` to install all dependencies (including Grunt).
-1. Run `grunt` to grunt this project.
-
-Assuming that you don't see any red, you're ready to go. Just be sure to run `grunt` after making any changes, to ensure that nothing is broken.
-
-## Submitting pull requests
-
-1. Create a new branch, please don't work in your `master` branch directly.
-1. Add failing tests for the change you want to make. Run `grunt` to see the tests fail.
-1. Fix stuff.
-1. Run `grunt` to see if the tests pass. Repeat steps 2-4 until done.
-1. Open `test/*.html` unit test file(s) in actual browser to ensure tests pass everywhere.
-1. Update the documentation to reflect any changes.
-1. Push to your fork and submit a pull request.
+- Submit feedback on [this sample page](https://azure.microsoft.com/documentation/samples/videojs-progressTips/) whether it was helpful or not.  
+- Submit issues through [issue tracker](https://github.com/Azure-Samples/videojs-progressTips/issues) on GitHub. We are actively monitoring the issues and improving our samples.
+- If you wish to make code changes to samples, or contribute something new, please follow the [GitHub Forks / Pull requests model](https://help.github.com/articles/fork-a-repo/): Fork the sample repo, make the change and propose it back by submitting a pull request.
