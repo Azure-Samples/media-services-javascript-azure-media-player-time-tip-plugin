@@ -1,30 +1,31 @@
-# videojs-progressTips
+---
+services: media-services
+platforms: javascript
+author: rajputam
+---
 
-Display a tooltip on hover with the time on video.js players.
+# Media Services: Time Tip Plugin for Azure Media Player
 
-![videojs-progressTips](https://dl.dropboxusercontent.com/u/3086081/DONT-DELETE/videojs-progressTips.png)
+Time Tip plugin for Azure Media Player
 
+*This project is out of date as this plugin has been integrated directly into the release of Azure Media Player as of version 1.6.0.  This repository is kept active for reference purposes.* 
 
-This plugin was updated to and tested on video.js 4.6.4.
-It depends on jQuery.
+##Information
+This project is originally forked from [videojs-progressTips](https://github.com/mickey/videojs-progressTips) by Michael Bensoussan, a plugin for video.js and modified for use with Azure Media Player 
+
+## Introduction
+
+Display a tooltip on hover with the time on player control bar for accurate seeking.
 
 ## Getting Started
-Download [videojs](http://www.videojs.com/) and [videojs.ga](https://github.com/mickey/videojs-ga)
+Include the plugin *after* the AMP script in the `<head>` of your html page:
 
-In your web page:
 ```html
-<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script src="video.js"></script>
-<script src="dist/videojs.progressTips.min.js"></script>
-<link rel="stylesheet" href="dist/videojs.progressTips.css" type="text/css" />
-<video id="video" src="movie.mp4" controls></video>
-<script>
-videojs('video', {}, function() {
-  this.progressTips(); // "load the plugin, no options!"
-});
-</script>
+<script src="progressTimeTip.js"></script>
 ```
+
+See example.html for how to enable the plugin.
 
 ## Options
 
-No options so far! YAY!
+There are no options needed.
