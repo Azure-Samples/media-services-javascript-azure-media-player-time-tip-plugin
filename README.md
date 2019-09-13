@@ -1,7 +1,12 @@
 ---
-services: media-services
-platforms: javascript
-author: rajputam
+page_type: sample
+languages:
+- javascript
+- html
+products:
+- azure
+description: "Time Tip plugin for Azure Media Player"
+urlFragment: media-services-javascript-azure-media-player-time-tip-plugin
 ---
 
 # Media Services: Time Tip Plugin for Azure Media Player
