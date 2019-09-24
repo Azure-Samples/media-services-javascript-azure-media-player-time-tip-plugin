@@ -6,7 +6,7 @@ languages:
 products:
 - azure
 description: "Time Tip plugin for Azure Media Player"
-urlFragment: media-services-javascript-azure-media-player-time-tip-plugin
+urlFragment: time-tip-sample
 ---
 
 # Media Services: Time Tip Plugin for Azure Media Player
