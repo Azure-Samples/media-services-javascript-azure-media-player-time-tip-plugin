@@ -11,7 +11,7 @@ urlFragment: time-tip-sample
 
 # Media Services: Time Tip Plugin for Azure Media Player
 
-Time Tip plugin for Azure Media Player
+Time Tip plugin for Azure Media Player.
 
 *This project is out of date as this plugin has been integrated directly into the release of Azure Media Player as of version 1.6.0.  This repository is kept active for reference purposes.* 
 
