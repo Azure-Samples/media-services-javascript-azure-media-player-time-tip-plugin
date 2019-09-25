@@ -15,7 +15,8 @@ Time Tip plugin for Azure Media Player.
 
 *This project is out of date as this plugin has been integrated directly into the release of Azure Media Player as of version 1.6.0.  This repository is kept active for reference purposes.* 
 
-##Information
+## Information
+
 This project is originally forked from [videojs-progressTips](https://github.com/mickey/videojs-progressTips) by Michael Bensoussan, a plugin for video.js and modified for use with Azure Media Player 
 
 ## Introduction
